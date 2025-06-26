@@ -30,7 +30,8 @@ main {
   padding: 20px;
 }
 
-button.animated-btn {
+button.animated-btn,
+button {
   background-color: #ff6600;
   color: white;
   padding: 10px 20px;
@@ -40,7 +41,7 @@ button.animated-btn {
   transition: transform 0.2s;
 }
 
-button.animated-btn:hover {
+button:hover {
   transform: scale(1.05);
 }
 
@@ -48,6 +49,15 @@ button.animated-btn:hover {
   width: 200px;
   margin: 10px;
   border-radius: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  max-width: 300px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 footer {

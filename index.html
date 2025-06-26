@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MozengoMax - Rir é o melhor remédio</title>
+  <title>MozengoMax - IA de Piadas</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
     <h1>MozengoMax 😂</h1>
-    <p>Seu portal de piadas, memes e alegria!</p>
+    <p>Ria com piadas, memes e nossa IA divertida!</p>
     <button id="theme-toggle">🌓 Mudar tema</button>
   </header>
 
@@ -18,6 +18,13 @@
       <h2>Piada do dia</h2>
       <p id="joke">Clique no botão para rir!</p>
       <button onclick="showJoke()" class="animated-btn">Mostrar piada</button>
+    </section>
+
+    <section id="chat-joke">
+      <h2>Peça uma piada à IA</h2>
+      <input type="text" id="userInput" placeholder="Ex: me conte uma piada de escola" />
+      <button onclick="tellJoke()">Enviar</button>
+      <p id="aiResponse">🤖 Mozengo IA vai te responder aqui!</p>
     </section>
 
     <section id="memes">
