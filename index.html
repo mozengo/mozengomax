@@ -10,13 +10,14 @@
   <header>
     <h1>MozengoMax 😂</h1>
     <p>Seu portal de piadas, memes e alegria!</p>
+    <button id="theme-toggle">🌓 Mudar tema</button>
   </header>
 
   <main>
     <section id="joke-box">
       <h2>Piada do dia</h2>
       <p id="joke">Clique no botão para rir!</p>
-      <button onclick="showJoke()">Mostrar piada</button>
+      <button onclick="showJoke()" class="animated-btn">Mostrar piada</button>
     </section>
 
     <section id="memes">
@@ -24,10 +25,22 @@
       <img src="img/meme1.jpg" alt="Meme engraçado 1" />
       <img src="img/meme2.jpg" alt="Meme engraçado 2" />
     </section>
+
+    <section id="videos">
+      <h2>Vídeos Engraçados</h2>
+      <a href="https://www.youtube.com/results?search_query=vídeos+engraçados" target="_blank">
+        👉 Ver vídeos no YouTube
+      </a>
+    </section>
   </main>
 
   <footer>
     <p>Feito com 😂 por MozengoMax &copy; 2025</p>
+    <div class="social">
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">TikTok</a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
